@@ -1,0 +1,5 @@
+app:
+  image: docker.io/sofus/hello-quarkus:1.0.0-SNAPSHOT
+  name: template
+  ports:
+    http: 8080
