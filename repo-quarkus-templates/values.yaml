@@ -3,3 +3,5 @@ app:
   name: template
   ports:
     http: 8080
+  org_name: PLACEHOLDER_ORG_NAME
+  repo_name: PLACEHOLDER_REPO_NAME
