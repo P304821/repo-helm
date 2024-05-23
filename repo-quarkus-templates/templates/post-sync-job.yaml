@@ -51,7 +51,7 @@ spec:
             # Create JWT
             encoded_jwt = jwt.encode(payload, private_key, algorithm='RS256')
 
-            print(f"JWT:  {encoded_jwt}")
+            #print(f"JWT:  {encoded_jwt}")
 
             installation_id=50723686
 
