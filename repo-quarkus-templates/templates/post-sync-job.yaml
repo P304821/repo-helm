@@ -85,7 +85,7 @@ spec:
                 "event_type": "argocd-event"
             }
 
-            url_trigger_workflow = f"https://api.github.com/repos/{{ org_name }}/{{ repo_name }}/dispatches"
+            url_trigger_workflow = f"https://api.github.com/repos/{{ .Values.app.org_name }}/{{ .Values.app.repo_name }}/dispatches"
 
             response_trigger_workflow = requests.post(url_trigger_workflow, headers=headers_trigger_workflow, json=data)
 
