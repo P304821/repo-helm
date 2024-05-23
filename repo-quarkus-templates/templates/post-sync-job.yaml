@@ -70,7 +70,7 @@ spec:
 
             response_json = response.json()
             access_token = response_json.get('token')
-            print("Token:", access_token)
+            #print("Token:", access_token)
 
             # Print the response
             print("Response Status Code:", response.status_code)
