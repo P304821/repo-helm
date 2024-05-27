@@ -52,8 +52,7 @@ spec:
             encoded_jwt = jwt.encode(payload, private_key, algorithm='RS256')
 
             #print(f"JWT:  {encoded_jwt}")
-
-            installation_id=50723686
+            installation_id=51029338 # https://stackoverflow.com/questions/74462420/where-can-we-find-github-apps-installation-id Using the github app called "ArgoCD Webhook App" 
 
             # Define the API URL
             url = f"https://api.github.com/app/installations/{installation_id}/access_tokens"
